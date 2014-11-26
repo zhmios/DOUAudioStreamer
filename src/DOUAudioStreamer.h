@@ -46,7 +46,7 @@ typedef NS_ENUM(NSInteger, DOUAudioStreamerErrorCode) {
 
 + (NSArray *)analyzers;
 + (void)setAnalyzers:(NSArray *)analyzers;
-
+//zhm 预存下一个要播放的文件
 + (void)setHintWithAudioFile:(id <DOUAudioFile>)audioFile;
 
 @property (assign, readonly) DOUAudioStreamerStatus status;
