@@ -74,6 +74,7 @@
       [track setArtist:[item valueForProperty:MPMediaItemPropertyArtist]];
       [track setTitle:[item valueForProperty:MPMediaItemPropertyTitle]];
       [track setAudioFileURL:[item valueForProperty:MPMediaItemPropertyAssetURL]];
+        NSLog(@"trackUrl:%@",[item valueForProperty:MPMediaItemPropertyAssetURL]);
       [allTracks addObject:track];
     }
 
